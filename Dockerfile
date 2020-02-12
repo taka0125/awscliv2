@@ -12,6 +12,3 @@ RUN set -x && \
     ./aws/install
 
 ENV PATH="${PATH}:/usr/local/bin"
-
-ENTRYPOINT ["aws"]
-CMD ["--help"]
