@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 RUN set -x && \
     apt-get update && \
-    apt-get install -y curl unzip jq && \
+    apt-get install -y curl unzip jq less && \
     apt-get clean
 
 RUN set -x && \
